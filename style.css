@@ -55,3 +55,39 @@ header{
     font-size: 70px;
     font-weight: bolder;
 }
+/*  .........................card............ */
+.skille{
+  margin:15% auto 20px;
+  display: flex;
+  max-width: 90%;
+}
+.card-container{
+    margin: 5px;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 10px wheat 4px;
+    transition: 0.7s;
+}
+.card-container:hover{
+    border: 2px solid royalblue;
+
+    box-shadow: 5px 5px 10px wheat 14px;
+    text-decoration: underline;
+    transition: 1.7s;
+}
+.card-img{
+    width: 100%;
+    padding: 5px;
+}
+.card-img ,img{
+  object-fit: cover;
+   margin: 0 auto;
+   border-radius: 10px;
+}
+.card-titel{
+    padding: 10px;
+    font-size: 22px;
+}
+.card-artical{
+    padding: 10px;
+}
