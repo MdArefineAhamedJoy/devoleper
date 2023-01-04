@@ -91,3 +91,29 @@ header{
 .card-artical{
     padding: 12px;
 }
+.foote-container{
+    display: flex;
+    margin: 50px 50px 10px;
+
+}
+.conted1{
+    margin: 10px;
+    padding: 40px;
+    background-color:coral;
+}
+.conted1:hover{
+    border-left: 15px solid cornflowerblue;
+    border-radius: 20px;
+    transition: 0.5s;
+    position: relative;
+}
+.conted2{
+    margin: 10px ;
+    padding: 40px;
+    background-color:palevioletred;
+}
+.conted2:hover{
+    border-left: 15px solid tomato;
+    border-radius: 20px;
+    transition: 0.5s;
+}
