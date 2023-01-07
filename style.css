@@ -57,7 +57,7 @@ header{
 }
 /*  .........................card............ */
 .skille{
-  margin:15% auto 20px;
+  margin:5% auto 50px;
   display: flex;
   max-width: 90%;
 }
@@ -65,15 +65,16 @@ header{
     margin: 5px;
     border-radius: 20px;
     background-color: whitesmoke;
-    box-shadow: 5px 5px 10px wheat 4px;
     transition: 0.7s;
+    border: 0;
+    padding:10px 20px;
 }
 .card-container:hover{
     border: 2px solid royalblue;
-
-    box-shadow: 5px 5px 10px wheat 14px;
-    text-decoration: underline;
-    transition: 1.7s;
+    background-color: darkgrey;
+    box-shadow: 25px 25px 50px beige ;
+    transition: 0.5s;
+    border: 0;
 }
 .card-img{
     width: 100%;
@@ -116,4 +117,11 @@ header{
     border-left: 15px solid tomato;
     border-radius: 20px;
     transition: 0.5s;
+}
+.copy-right{
+    height: 100px;
+    background-color: black;
+    color: aliceblue;
+    padding: 30px 0;
+    font-size: 24px;
 }
